@@ -5,4 +5,5 @@ p {
 
 body p {
     background-color: cyan;
+    padding: 20px;
 }
