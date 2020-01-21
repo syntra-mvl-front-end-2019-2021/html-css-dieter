@@ -2,3 +2,7 @@ p {
     margin-left: 50px;
     background-color: bisque;
 }
+
+body p {
+    background-color: cyan;
+}
