@@ -1,0 +1,49 @@
+p {
+    font-size: 20px;
+}
+.float-img {
+    float: right;
+}
+
+header {
+    height: 35px;
+    background-color: red;
+}
+
+.block-1 {
+    background-color: blue;
+    width: 75px;
+    height: 25px;
+    margin: 5px 5px;
+    float: left;
+}
+
+.block-2 {
+    background-color: purple;
+    width: 75px;
+    height: 25px;
+    margin: 5px 5px;
+    float: right;
+}
+
+.block-3 {
+    background-color: green;
+    width: 75px;
+    height: 25px;
+    margin: 5px 5px;
+    float: right;
+}
+.block-4 {
+    background-color: yellow;
+    width: 75px;
+    height: 25px;
+    margin: 5px 5px;
+    float: right;
+}
+
+.overflow-test {
+width: 150px;
+height: 200px;
+background-color: yellowgreen;
+overflow: auto;
+}
