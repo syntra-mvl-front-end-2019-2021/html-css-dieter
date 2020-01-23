@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 3</li>
+    </ol>
+
+    <form id="form-1" method="GET" action="#">
+        
+        <fieldset>
+        <label for="first-name">Voornaam:</label>
+        <input name="first-name" id="first-name" type="text" placeholder="Uw naam">
+
+    <label>
+        Email:
+        <input name="email" type="email" value="test@test.be">
+    </label>
+
+    <label>
+        leeftijd:
+        <input name="age" type="number">
+    </label>
+    </fieldset>
+
+    <label>
+        Geboortedatum:
+        <input name="birth" type="date">
+    </label>
+
+    <label>
+        Huisdier:
+        <input name="pet" type="checkbox" value="has-pet" checked>
+    </label>
+
+    <label>
+        Man:
+        <input name="gender" type="radio" value="man" checked>
+    </label>
+
+    <label>
+        Vrouw:
+        <input name="gender" type="radio" value="woman">
+    </label>
+
+    <label>
+        Kinderen:
+        <select name="children">
+            <option value="_" disabled selected>Selecteer</option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+        </select>
+    </label>
+
+    <button type="button">Test</button>
+    <button type="submit">Verzenden</button>
+
+    </form>
+
+    <button for="form-1" type="submit">submit-out</button>
+
+
+</body>
+</html>
