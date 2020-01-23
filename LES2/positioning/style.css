@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+}
+
+.green {
+    background-color: green;
+    height: 50px;
+}
+
+.position-relative {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    bottom: -40px;
+    left: 50%;
+}
+
+.position-absolute {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+}
+
+.pos-1 {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 30%;
+    background-color: pink;
+}
+
+.sticky {
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    background-color: powderblue;
+    top: 10%;
+}
+
+.block-1 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 100px;
+    background-color: red;
+}
+
+.block-2 {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    background-color: seagreen;
+}
+
+.block-3 {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    background-color: blue;
+}
+
+.block-4 {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: orange;
+}
+
