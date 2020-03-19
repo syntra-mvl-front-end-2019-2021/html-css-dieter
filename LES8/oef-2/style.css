@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Bitter|Quicksand&display=swap';
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 1176px;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 240px 1fr ;
+    grid-template-areas:
+        'header'
+        'sub-header'
+        'main';
+}
+
+header {
+    grid-area: header;
+}
+
+.header-content {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 20px;
+    height: 40px;
+}
+

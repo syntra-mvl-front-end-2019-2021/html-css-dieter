@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+    font-size: 20pt;
+}
+
+body {
+    height: 100%;
+    width:2000px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    height: 100%;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
+    grid-template-areas:
+    'header header header'
+    'links-midden midden-midden rechts-midden'
+    'links-onder midden-onder rechts-onder';
+}
+
+.box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: lightblue;
+    grid-area: header;
+}

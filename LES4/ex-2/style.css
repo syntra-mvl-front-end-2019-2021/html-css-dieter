@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 210, 210);
+    box-shadow: inset 0px 0px 25px rgb(170, 170, 170);
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(40, 191, 218);
+    box-shadow: inset 0px 0px 200px rgb(0, 183, 255);
+    color: white;
+}
+
+.top-header {
+    width: 1000px;
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.bottom-header {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.header-logo img {
+    height: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.button {
+    font-size: 0.95em;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding: 17px 17px 10px 17px;
+}
+
+.button.active {
+    border-bottom: 1px solid rgb(9, 97, 156);
+}
+
+.bottom-header p {
+    font-size: 18px;
+    text-align: center;
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+    font-weight: normal;
+    width: 990px;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.box-under-header {
+    font-size: 0.9em;
+    color: black;
+    background-color: white;
+    text-align: center;
+    height: 64px;
+    padding: 9px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+}
+
+.container-1 {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+.cards-img {
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+.cards-img img {
+    border-radius: 50%;
+}
+
+.cards-3 h3 {
+    padding-top: 25px;
+    margin: 0px;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+.cards-3 p, .cards-3-no-img p {
+    font-size: 0.9em;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
+}
+
+.learn-more a, a {
+    text-decoration: none;
+    color:  rgb(9, 97, 156);
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+a {
+    display: block;
+}
+.container-2 {
+    width: 600px;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-2 p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.container-3 {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.cards-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 12px 12px 12px;
+    padding: 23px;
+    width: 33%;
+}
+
+.cards-3-no-img {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px 12px 12px;
+    padding: 23px;
+    width: 33%;
+}
+
+.cards-3-no-img h2 {
+    margin: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.container-4-1 {
+    width: 1000px;
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-4-2-left {
+    width: 64.3%;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-4-2-right {
+    width: 31%;
+    margin: 0px;
+}
+
+.card-no-img {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 23px;
+}
+
+.container-4-3-top {
+    display: flex;
+    margin: auto;
+}
+
+.container-4-5-top {
+    display: flex;
+    margin: auto;
+}
+
+.container-5 {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 267px;
+    justify-content: center;
+}
+.container-5 .box-left {
+    width: 31%;
+    margin: 12px;
+    height: 100%;
+}
+
+.container-5 .box-right {
+    width: 64.3%;
+    margin: 12px;
+    height: 100%;
+}
+.container-6 {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 267px;
+    justify-content: center;
+    margin-top: 24px;
+}
+.container-6 .box-left {
+    width: 64.3%;
+    margin: 12px;
+    height: 100%;
+}
+
+.container-6 .box-right {
+    width: 31%;
+    margin: 12px;
+    height: 100%;
+}
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 330px;
+    margin-top: 36px;
+    padding: 15px 200px 30px 200px;
+    width: 100%;
+}
+
+.cat-1, .cat-2, .cat-3 {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}

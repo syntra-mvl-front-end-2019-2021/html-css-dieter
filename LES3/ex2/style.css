@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+}
+
+html {
+    height: 100%;
+}
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 50px;
+    position: relative;
+
+}
+
+header nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: red;
+    float: right;
+    padding-right: 25px;
+    position: relative;
+    overflow: auto;
+}
+
+aside nav {
+    font-family: sans-serif;
+    background-color: grey;
+    font-weight: bold;
+    float: left;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.image {
+    float: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+    left: 150px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 700 bold;
+    position: relative;
+    left: 150px;
+    padding-top: 20px;
+}
+main p {
+    font-family: sans-serif;
+    position: relative;
+    left: 150px;
+    padding-left: 40px;
+}

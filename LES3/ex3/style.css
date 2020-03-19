@@ -1,0 +1,88 @@
+.body {
+    background-color: lightblue;
+    width: 400px;
+    height: 220px;
+    margin-top: 300px;
+    margin-left: 250px;
+    position: relative;
+}
+
+.tail {
+    width: 200px;
+    height: 25px;
+    background-color: lightcoral;
+    position: absolute;
+    left: -200px;
+    top: 50%;
+    margin-top: -12.5px;
+}
+
+.paw-left {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    left: 0;
+    top: 100%;
+    position: absolute;
+}
+
+.paw-right {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    right: 0px;
+    top: 100%;
+    position: absolute;
+
+}
+
+.head {
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+    position: absolute;
+    left: 100%;
+    top: -75px;
+}
+
+.eye {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.ear {
+    height: 100px;
+    width: 50px;
+    background-color: brown;
+    left: -25px;
+    top: 0px;
+    position: absolute;
+}
+
+.body-color {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+}
+
+.color-1 {
+    background-color: khaki;
+}
+
+.color-2 {
+    background-color: palevioletred;
+}
+
+.color-3 {
+    background-color: khaki;
+}
+
+.color-4 {
+    background-color: khaki;
+}
